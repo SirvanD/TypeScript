@@ -21,3 +21,14 @@ employee = [
 
 //Union Type
 let pid: string | number = 22;
+pid = 54;
+pid = "fifty four";
+
+//Enum
+enum Direction1 {
+  Up = 1,
+  Down,
+  Left,
+  Right,
+}
+console.log(Direction1.Left);

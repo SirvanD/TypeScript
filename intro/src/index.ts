@@ -12,3 +12,12 @@ let arr: any[] = [1, true, "Great"];
 let person: [number, string, boolean] = [1, "Sirvs", false];
 //Tuple Array
 let employee: [number, string][];
+
+employee = [
+  [1, "Brad"],
+  [2, "Rose"],
+  [3, "Matt"],
+];
+
+//Union Type
+let pid: string | number = 22;

@@ -55,5 +55,10 @@ let customerID = cid as number;
 function addNum(x: number, y: number): number {
   return x + y;
 }
-
 console.log(addNum(54, 16));
+
+function log(message: string | number): void {
+  console.log(message);
+}
+
+//Interfaces

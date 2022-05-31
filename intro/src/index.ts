@@ -61,4 +61,4 @@ function log(message: string | number): void {
   console.log(message);
 }
 
-//Interfaces types
+//Interfaces types 2
